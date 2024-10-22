@@ -12,12 +12,14 @@
   --fonte-titulo: 'Krona One', sans-serif;
   --fonte-texto: 'Numans', sans-serif;
   --degrade-azul: linear-gradient(180deg, #000000 0%, #26327f 100%);
+  --cor-roxa: #9353FF;
 }
 
 body {
   background: var(--degrade-azul);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,7 +121,7 @@ ul {
 .checkbox-customizado{
     width: 20px;
     height: 20px;
-    background-color: var(--preto);
+    background-color: var(--neutro);
     border: 1px solid var(--preto);
     cursor: pointer;
     border-radius: 4px;
